@@ -1,0 +1,48 @@
+Swin Tiny
+Epoch [1/5]: 1563/1563 [05:23<00:00,  4.84it/s, loss=3.57]
+Epoch [1] completed in 323.17 seconds, with average loss value of 4.0596
+Epoch [2/5]: 1563/1563 [05:27<00:00,  4.78it/s, loss=2.73] 
+Epoch [2] completed in 327.12 seconds, with average loss value of 3.0589
+Epoch [3/5]: 1563/1563 [05:27<00:00,  4.78it/s, loss=2.23] 
+Epoch [3] completed in 327.11 seconds, with average loss value of 2.3779
+Epoch [4/5]: 1563/1563 [05:27<00:00,  4.77it/s, loss=1.88] 
+Epoch [4] completed in 327.88 seconds, with average loss value of 1.9467
+Epoch [5/5]: 1563/1563 [05:26<00:00,  4.79it/s, loss=2.02] 
+Epoch [5] completed in 326.02 seconds, with average loss value of 1.6722
+
+Testing: 313/313 [01:04<00:00,  4.89it/s] 
+Test Accuracy: 66.20%
+
+Swin Small
+Epoch [1/5]: 1563/1563 [08:43<00:00,  2.98it/s, loss=3.57]
+Epoch [1] completed in 523.75 seconds, with average loss value of 3.9876
+Epoch [2/5]: 1563/1563 [08:51<00:00,  2.94it/s, loss=2.48] 
+Epoch [2] completed in 531.79 seconds, with average loss value of 2.8931
+Epoch [3/5]: 1563/1563 [08:54<00:00,  2.93it/s, loss=1.74] 
+Epoch [3] completed in 534.02 seconds, with average loss value of 2.1692
+Epoch [4/5]: 1563/1563 [08:49<00:00,  2.95it/s, loss=1.65] 
+Epoch [4] completed in 529.46 seconds, with average loss value of 1.7330
+Epoch [5/5]: 1563/1563 [08:48<00:00,  2.96it/s, loss=1.44] 
+Epoch [5] completed in 528.70 seconds, with average loss value of 1.4729
+
+Evaluating fine-tuned model...
+Testing: 313/313 [01:45<00:00,  2.97it/s] 
+Test Accuracy: 70.06%
+
+
+Trained From Scratch model
+Training Swin-Tiny from scratch on CIFAR-100…
+Epoch [1/5]: 1563/1563 [19:23<00:00,  1.34it/s, loss=3.7]
+Epoch 1 finished in 1163.9s, avg loss 4.0485
+Epoch [2/5]: 1563/1563 [19:25<00:00,  1.34it/s, loss=3.48] 
+Epoch 2 finished in 1165.5s, avg loss 3.5696
+Epoch [3/5]: 1563/1563 [19:19<00:00,  1.35it/s, loss=3.05] 
+Epoch 3 finished in 1159.8s, avg loss 3.2706
+Epoch [4/5]: 1563/1563 [19:16<00:00,  1.35it/s, loss=2.55] 
+Epoch 4 finished in 1156.3s, avg loss 3.0413
+Epoch [5/5]: 1563/1563 [19:22<00:00,  1.34it/s, loss=2.52] 
+Epoch 5 finished in 1162.9s, avg loss 2.8392
+
+Evaluating…
+Testing: 313/313 [02:08<00:00,  2.43it/s] 
+Test Accuracy: 31.46%

@@ -1,0 +1,1152 @@
+Patch Size: 4, Hidden_dim: 256, num_layers: 2, num_heads: 4, mlp_dim: 512
+Training started...
+Epoch [1/50], Loss: 4.764984130859375
+Epoch1 training time: 11.885703802108765 seconds
+Epoch [2/50], Loss: 4.578017711639404
+Epoch2 training time: 11.900216817855835 seconds
+Epoch [3/50], Loss: 4.5491623878479
+Epoch3 training time: 12.071363687515259 seconds
+Epoch [4/50], Loss: 4.604336261749268
+Epoch4 training time: 11.910726070404053 seconds
+Epoch [5/50], Loss: 4.632369041442871
+Epoch5 training time: 11.918732643127441 seconds
+Epoch [6/50], Loss: 4.620253086090088
+Epoch6 training time: 12.01231336593628 seconds
+Epoch [7/50], Loss: 4.605367660522461
+Epoch7 training time: 12.23500394821167 seconds
+Epoch [8/50], Loss: 4.60639762878418
+Epoch8 training time: 12.98815107345581 seconds
+Epoch [9/50], Loss: 4.597818851470947
+Epoch9 training time: 14.366333723068237 seconds
+Epoch [10/50], Loss: 4.609567642211914
+Epoch10 training time: 13.868407011032104 seconds
+Epoch [11/50], Loss: 4.600829601287842
+Epoch11 training time: 11.835660934448242 seconds
+Epoch [12/50], Loss: 4.608511924743652
+Epoch12 training time: 11.968775749206543 seconds
+Epoch [13/50], Loss: 4.59965181350708
+Epoch13 training time: 11.99930191040039 seconds
+Epoch [14/50], Loss: 4.604007720947266
+Epoch14 training time: 11.923737049102783 seconds
+Epoch [15/50], Loss: 4.596736431121826
+Epoch15 training time: 11.914229154586792 seconds
+Epoch [16/50], Loss: 4.607702732086182
+Epoch16 training time: 11.827654600143433 seconds
+Epoch [17/50], Loss: 4.603819847106934
+Epoch17 training time: 11.889207363128662 seconds
+Epoch [18/50], Loss: 4.622922420501709
+Epoch18 training time: 11.869190216064453 seconds
+Epoch [19/50], Loss: 4.615999221801758
+Epoch19 training time: 11.950760126113892 seconds
+Epoch [20/50], Loss: 4.603240013122559
+Epoch20 training time: 11.958767175674438 seconds
+Epoch [21/50], Loss: 4.617855072021484
+Epoch21 training time: 12.098887920379639 seconds
+Epoch [22/50], Loss: 4.595705032348633
+Epoch22 training time: 11.89921522140503 seconds
+Epoch [23/50], Loss: 4.600513935089111
+Epoch23 training time: 12.01581621170044 seconds
+Epoch [24/50], Loss: 4.595295429229736
+Epoch24 training time: 11.61046814918518 seconds
+Epoch [25/50], Loss: 4.6084513664245605
+Epoch25 training time: 11.321720123291016 seconds
+Epoch [26/50], Loss: 4.613995552062988
+Epoch26 training time: 11.346241235733032 seconds
+Epoch [27/50], Loss: 4.586854934692383
+Epoch27 training time: 11.381271362304688 seconds
+Epoch [28/50], Loss: 4.607749938964844
+Epoch28 training time: 11.286190032958984 seconds
+Epoch [29/50], Loss: 4.604743003845215
+Epoch29 training time: 11.314713954925537 seconds
+Epoch [30/50], Loss: 4.618749141693115
+Epoch30 training time: 11.286189556121826 seconds
+Epoch [31/50], Loss: 4.60457706451416
+Epoch31 training time: 11.301202774047852 seconds
+Epoch [32/50], Loss: 4.606374263763428
+Epoch32 training time: 11.31621527671814 seconds
+Epoch [33/50], Loss: 4.597641468048096
+Epoch33 training time: 11.383273601531982 seconds
+Epoch [34/50], Loss: 4.617238521575928
+Epoch34 training time: 11.463842391967773 seconds
+Epoch [35/50], Loss: 4.617219924926758
+Epoch35 training time: 11.29619836807251 seconds
+Epoch [36/50], Loss: 4.592685222625732
+Epoch36 training time: 11.304705619812012 seconds
+Epoch [37/50], Loss: 4.6117119789123535
+Epoch37 training time: 11.336733102798462 seconds
+Epoch [38/50], Loss: 4.6105055809021
+Epoch38 training time: 11.333230018615723 seconds
+Epoch [39/50], Loss: 4.613074779510498
+Epoch39 training time: 11.360753774642944 seconds
+Epoch [40/50], Loss: 4.604063510894775
+Epoch40 training time: 11.306206941604614 seconds
+Epoch [41/50], Loss: 4.603054046630859
+Epoch41 training time: 11.29019284248352 seconds
+Epoch [42/50], Loss: 4.619684219360352
+Epoch42 training time: 11.338234424591064 seconds
+Epoch [43/50], Loss: 4.605859279632568
+Epoch43 training time: 11.332729578018188 seconds
+Epoch [44/50], Loss: 4.605447292327881
+Epoch44 training time: 11.459338188171387 seconds
+Epoch [45/50], Loss: 4.602301597595215
+Epoch45 training time: 11.329727411270142 seconds
+Epoch [46/50], Loss: 4.606298923492432
+Epoch46 training time: 11.315214395523071 seconds
+Epoch [47/50], Loss: 4.5948686599731445
+Epoch47 training time: 12.089379072189331 seconds
+Epoch [48/50], Loss: 4.616408824920654
+Epoch48 training time: 11.459164142608643 seconds
+Epoch [49/50], Loss: 4.604491710662842
+Epoch49 training time: 11.510882377624512 seconds
+Epoch [50/50], Loss: 4.611566066741943
+Epoch50 training time: 11.48936414718628 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 16,896
+├─PatchEmbedding: 1-1                    [64, 64, 256]             --
+│    └─Conv2d: 2-1                       [64, 256, 8, 8]           12,544
+├─Dropout: 1-2                           [64, 65, 256]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 65, 256]             --
+│    │    └─LayerNorm: 3-1               [64, 65, 256]             512
+│    │    └─MultiheadAttention: 3-2      [64, 65, 256]             263,168
+│    │    └─LayerNorm: 3-3               [64, 65, 256]             512
+│    │    └─Sequential: 3-4              [64, 65, 256]             262,912
+│    └─TransformerEncoder: 2-3           [64, 65, 256]             --
+│    │    └─LayerNorm: 3-5               [64, 65, 256]             512
+│    │    └─MultiheadAttention: 3-6      [64, 65, 256]             263,168
+│    │    └─LayerNorm: 3-7               [64, 65, 256]             512
+│    │    └─Sequential: 3-8              [64, 65, 256]             262,912
+├─LayerNorm: 1-4                         [64, 65, 256]             512
+├─Linear: 1-5                            [64, 100]                 25,700
+==========================================================================================
+Total params: 1,109,860
+Trainable params: 1,109,860
+Non-trainable params: 0
+Total mult-adds (M): 86.84
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 102.16
+Params size (MB): 2.27
+Estimated Total Size (MB): 105.21
+==========================================================================================
+
+
+
+
+Patch Size: 4, Hidden_dim: 256, num_layers: 4, num_heads: 4, mlp_dim: 512
+Training started...
+Epoch [1/50], Loss: 4.554128170013428
+Epoch1 training time: 18.340898513793945 seconds
+Epoch [2/50], Loss: 4.61842155456543
+Epoch2 training time: 14.653580904006958 seconds
+Epoch [3/50], Loss: 4.579582214355469
+Epoch3 training time: 14.676600456237793 seconds
+Epoch [4/50], Loss: 4.604781627655029
+Epoch4 training time: 14.695616960525513 seconds
+Epoch [5/50], Loss: 4.626163005828857
+Epoch5 training time: 14.73565149307251 seconds
+Epoch [6/50], Loss: 4.593381404876709
+Epoch6 training time: 14.726642847061157 seconds
+Epoch [7/50], Loss: 4.636395454406738
+Epoch7 training time: 14.75366759300232 seconds
+Epoch [8/50], Loss: 4.598865509033203
+Epoch8 training time: 14.692112922668457 seconds
+Epoch [9/50], Loss: 4.600184440612793
+Epoch9 training time: 14.725642919540405 seconds
+Epoch [10/50], Loss: 4.598217487335205
+Epoch10 training time: 14.730146169662476 seconds
+Epoch [11/50], Loss: 4.600376129150391
+Epoch11 training time: 14.717635869979858 seconds
+Epoch [12/50], Loss: 4.598505020141602
+Epoch12 training time: 14.754166841506958 seconds
+Epoch [13/50], Loss: 4.635674953460693
+Epoch13 training time: 14.800206899642944 seconds
+Epoch [14/50], Loss: 4.601715564727783
+Epoch14 training time: 14.834736108779907 seconds
+Epoch [15/50], Loss: 4.584875106811523
+Epoch15 training time: 14.888282060623169 seconds
+Epoch [16/50], Loss: 4.609710216522217
+Epoch16 training time: 14.904295682907104 seconds
+Epoch [17/50], Loss: 4.605325698852539
+Epoch17 training time: 14.90880012512207 seconds
+Epoch [18/50], Loss: 4.617343902587891
+Epoch18 training time: 14.879274606704712 seconds
+Epoch [19/50], Loss: 4.619322776794434
+Epoch19 training time: 14.935823202133179 seconds
+Epoch [20/50], Loss: 4.596128940582275
+Epoch20 training time: 14.961344242095947 seconds
+Epoch [21/50], Loss: 4.602858543395996
+Epoch21 training time: 14.876272201538086 seconds
+Epoch [22/50], Loss: 4.6015424728393555
+Epoch22 training time: 14.947333097457886 seconds
+Epoch [23/50], Loss: 4.6053619384765625
+Epoch23 training time: 14.86125922203064 seconds
+Epoch [24/50], Loss: 4.604649066925049
+Epoch24 training time: 14.800706624984741 seconds
+Epoch [25/50], Loss: 4.620181560516357
+Epoch25 training time: 14.780189514160156 seconds
+Epoch [26/50], Loss: 4.619598388671875
+Epoch26 training time: 14.766178131103516 seconds
+Epoch [27/50], Loss: 4.6146016120910645
+Epoch27 training time: 14.761672973632812 seconds
+Epoch [28/50], Loss: 4.599012851715088
+Epoch28 training time: 14.83023190498352 seconds
+Epoch [29/50], Loss: 4.609312534332275
+Epoch29 training time: 14.824227809906006 seconds
+Epoch [30/50], Loss: 4.611399173736572
+Epoch30 training time: 14.791699409484863 seconds
+Epoch [31/50], Loss: 4.621350288391113
+Epoch31 training time: 14.757169485092163 seconds
+Epoch [32/50], Loss: 4.621280670166016
+Epoch32 training time: 14.750163793563843 seconds
+Epoch [33/50], Loss: 4.622424602508545
+Epoch33 training time: 14.76767873764038 seconds
+Epoch [34/50], Loss: 4.602939128875732
+Epoch34 training time: 14.814870119094849 seconds
+Epoch [35/50], Loss: 4.606779098510742
+Epoch35 training time: 14.869766235351562 seconds
+Epoch [36/50], Loss: 4.607944488525391
+Epoch36 training time: 14.924313068389893 seconds
+Epoch [37/50], Loss: 4.603418350219727
+Epoch37 training time: 14.734650373458862 seconds
+Epoch [38/50], Loss: 4.613255977630615
+Epoch38 training time: 14.721138954162598 seconds
+Epoch [39/50], Loss: 4.613411903381348
+Epoch39 training time: 14.900792598724365 seconds
+Epoch [40/50], Loss: 4.6048431396484375
+Epoch40 training time: 14.836738109588623 seconds
+Epoch [41/50], Loss: 4.59927225112915
+Epoch41 training time: 14.80320954322815 seconds
+Epoch [42/50], Loss: 4.615551948547363
+Epoch42 training time: 14.769179821014404 seconds
+Epoch [43/50], Loss: 4.6096978187561035
+Epoch43 training time: 14.783191680908203 seconds
+Epoch [44/50], Loss: 4.603050708770752
+Epoch44 training time: 14.734149932861328 seconds
+Epoch [45/50], Loss: 4.621901988983154
+Epoch45 training time: 14.74015498161316 seconds
+Epoch [46/50], Loss: 4.607041358947754
+Epoch46 training time: 14.73314905166626 seconds
+Epoch [47/50], Loss: 4.621438980102539
+Epoch47 training time: 14.762674331665039 seconds
+Epoch [48/50], Loss: 4.640415191650391
+Epoch48 training time: 14.788696527481079 seconds
+Epoch [49/50], Loss: 4.6212873458862305
+Epoch49 training time: 14.770180225372314 seconds
+Epoch [50/50], Loss: 4.612493991851807
+Epoch50 training time: 14.771681785583496 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 16,896
+├─PatchEmbedding: 1-1                    [64, 64, 256]             --
+│    └─Conv2d: 2-1                       [64, 256, 8, 8]           12,544
+├─Dropout: 1-2                           [64, 65, 256]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 65, 256]             --
+│    │    └─LayerNorm: 3-1               [64, 65, 256]             512
+│    │    └─MultiheadAttention: 3-2      [64, 65, 256]             263,168
+│    │    └─LayerNorm: 3-3               [64, 65, 256]             512
+│    │    └─Sequential: 3-4              [64, 65, 256]             262,912
+│    └─TransformerEncoder: 2-3           [64, 65, 256]             --
+│    │    └─LayerNorm: 3-5               [64, 65, 256]             512
+│    │    └─MultiheadAttention: 3-6      [64, 65, 256]             263,168
+│    │    └─LayerNorm: 3-7               [64, 65, 256]             512
+│    │    └─Sequential: 3-8              [64, 65, 256]             262,912
+│    └─TransformerEncoder: 2-4           [64, 65, 256]             --
+│    │    └─LayerNorm: 3-9               [64, 65, 256]             512
+│    │    └─MultiheadAttention: 3-10     [64, 65, 256]             263,168
+│    │    └─LayerNorm: 3-11              [64, 65, 256]             512
+│    │    └─Sequential: 3-12             [64, 65, 256]             262,912
+│    └─TransformerEncoder: 2-5           [64, 65, 256]             --
+│    │    └─LayerNorm: 3-13              [64, 65, 256]             512
+│    │    └─MultiheadAttention: 3-14     [64, 65, 256]             263,168
+│    │    └─LayerNorm: 3-15              [64, 65, 256]             512
+│    │    └─Sequential: 3-16             [64, 65, 256]             262,912
+├─LayerNorm: 1-4                         [64, 65, 256]             512
+├─Linear: 1-5                            [64, 100]                 25,700
+==========================================================================================
+Total params: 2,164,068
+Trainable params: 2,164,068
+Non-trainable params: 0
+Total mult-adds (M): 120.63
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 187.35
+Params size (MB): 4.38
+Estimated Total Size (MB): 192.52
+==========================================================================================
+
+
+
+
+Patch Size: 4, Hidden_dim: 512, num_layers: 2, num_heads: 4, mlp_dim: 1024
+Training started...
+Epoch [1/50], Loss: 4.631103992462158
+Epoch1 training time: 20.47157597541809 seconds
+Epoch [2/50], Loss: 4.610923767089844
+Epoch2 training time: 18.9417622089386 seconds
+Epoch [3/50], Loss: 4.58818244934082
+Epoch3 training time: 18.987801790237427 seconds
+Epoch [4/50], Loss: 4.550868034362793
+Epoch4 training time: 18.999311685562134 seconds
+Epoch [5/50], Loss: 4.62652587890625
+Epoch5 training time: 18.996809482574463 seconds
+Epoch [6/50], Loss: 4.627209186553955
+Epoch6 training time: 18.993306636810303 seconds
+Epoch [7/50], Loss: 4.610244274139404
+Epoch7 training time: 19.0082004070282 seconds
+Epoch [8/50], Loss: 4.603667259216309
+Epoch8 training time: 18.997309923171997 seconds
+Epoch [9/50], Loss: 4.606617450714111
+Epoch9 training time: 19.001996517181396 seconds
+Epoch [10/50], Loss: 4.623348236083984
+Epoch10 training time: 19.000812768936157 seconds
+Epoch [11/50], Loss: 4.6157660484313965
+Epoch11 training time: 18.998311281204224 seconds
+Epoch [12/50], Loss: 4.621938228607178
+Epoch12 training time: 19.005316495895386 seconds
+Epoch [13/50], Loss: 4.602981090545654
+Epoch13 training time: 19.000312566757202 seconds
+Epoch [14/50], Loss: 4.619319915771484
+Epoch14 training time: 19.002327919006348 seconds
+Epoch [15/50], Loss: 4.607229232788086
+Epoch15 training time: 18.99630904197693 seconds
+Epoch [16/50], Loss: 4.590624809265137
+Epoch16 training time: 18.98930335044861 seconds
+Epoch [17/50], Loss: 4.597286224365234
+Epoch17 training time: 18.996809482574463 seconds
+Epoch [18/50], Loss: 4.603158950805664
+Epoch18 training time: 18.996809482574463 seconds
+Epoch [19/50], Loss: 4.584214210510254
+Epoch19 training time: 18.997310400009155 seconds
+Epoch [20/50], Loss: 4.632628917694092
+Epoch20 training time: 18.997809886932373 seconds
+Epoch [21/50], Loss: 4.590736389160156
+Epoch21 training time: 18.99430751800537 seconds
+Epoch [22/50], Loss: 4.626853942871094
+Epoch22 training time: 18.998310804367065 seconds
+Epoch [23/50], Loss: 4.639064788818359
+Epoch23 training time: 19.000311613082886 seconds
+Epoch [24/50], Loss: 4.611764430999756
+Epoch24 training time: 18.996309280395508 seconds
+Epoch [25/50], Loss: 4.5974931716918945
+Epoch25 training time: 18.994307279586792 seconds
+Epoch [26/50], Loss: 4.637720584869385
+Epoch26 training time: 18.994307279586792 seconds
+Epoch [27/50], Loss: 4.616809368133545
+Epoch27 training time: 18.985299825668335 seconds
+Epoch [28/50], Loss: 4.60734224319458
+Epoch28 training time: 18.984298706054688 seconds
+Epoch [29/50], Loss: 4.617313385009766
+Epoch29 training time: 18.9847993850708 seconds
+Epoch [30/50], Loss: 4.622506618499756
+Epoch30 training time: 18.98730158805847 seconds
+Epoch [31/50], Loss: 4.614193439483643
+Epoch31 training time: 18.97729253768921 seconds
+Epoch [32/50], Loss: 4.61680269241333
+Epoch32 training time: 18.97529101371765 seconds
+Epoch [33/50], Loss: 4.610350131988525
+Epoch33 training time: 18.97629189491272 seconds
+Epoch [34/50], Loss: 4.631237030029297
+Epoch34 training time: 18.970787286758423 seconds
+Epoch [35/50], Loss: 4.605857849121094
+Epoch35 training time: 18.975792407989502 seconds
+Epoch [36/50], Loss: 4.615211486816406
+Epoch36 training time: 18.97729182243347 seconds
+Epoch [37/50], Loss: 4.616846561431885
+Epoch37 training time: 18.977292776107788 seconds
+Epoch [38/50], Loss: 4.615696907043457
+Epoch38 training time: 18.983222723007202 seconds
+Epoch [39/50], Loss: 4.59971284866333
+Epoch39 training time: 18.980294942855835 seconds
+Epoch [40/50], Loss: 4.610042095184326
+Epoch40 training time: 18.967284440994263 seconds
+Epoch [41/50], Loss: 4.598092079162598
+Epoch41 training time: 18.973289251327515 seconds
+Epoch [42/50], Loss: 4.613156318664551
+Epoch42 training time: 18.970787525177002 seconds
+Epoch [43/50], Loss: 4.601307392120361
+Epoch43 training time: 18.971787691116333 seconds
+Epoch [44/50], Loss: 4.602898120880127
+Epoch44 training time: 18.966283559799194 seconds
+Epoch [45/50], Loss: 4.624098777770996
+Epoch45 training time: 18.977292776107788 seconds
+Epoch [46/50], Loss: 4.589616298675537
+Epoch46 training time: 18.98229694366455 seconds
+Epoch [47/50], Loss: 4.615487098693848
+Epoch47 training time: 18.972288608551025 seconds
+Epoch [48/50], Loss: 4.609227657318115
+Epoch48 training time: 18.97429060935974 seconds
+Epoch [49/50], Loss: 4.5957536697387695
+Epoch49 training time: 18.97629141807556 seconds
+Epoch [50/50], Loss: 4.611196517944336
+Epoch50 training time: 18.976292371749878 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 33,792
+├─PatchEmbedding: 1-1                    [64, 64, 512]             --
+│    └─Conv2d: 2-1                       [64, 512, 8, 8]           25,088
+├─Dropout: 1-2                           [64, 65, 512]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 65, 512]             --
+│    │    └─LayerNorm: 3-1               [64, 65, 512]             1,024
+│    │    └─MultiheadAttention: 3-2      [64, 65, 512]             1,050,624
+│    │    └─LayerNorm: 3-3               [64, 65, 512]             1,024
+│    │    └─Sequential: 3-4              [64, 65, 512]             1,050,112
+│    └─TransformerEncoder: 2-3           [64, 65, 512]             --
+│    │    └─LayerNorm: 3-5               [64, 65, 512]             1,024
+│    │    └─MultiheadAttention: 3-6      [64, 65, 512]             1,050,624
+│    │    └─LayerNorm: 3-7               [64, 65, 512]             1,024
+│    │    └─Sequential: 3-8              [64, 65, 512]             1,050,112
+├─LayerNorm: 1-4                         [64, 65, 512]             1,024
+├─Linear: 1-5                            [64, 100]                 51,300
+==========================================================================================
+Total params: 4,316,772
+Trainable params: 4,316,772
+Non-trainable params: 0
+Total mult-adds (M): 240.79
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 204.26
+Params size (MB): 8.73
+Estimated Total Size (MB): 213.77
+==========================================================================================
+
+
+
+
+Patch Size: 4, Hidden_dim: 512, num_layers: 4, num_heads: 4, mlp_dim: 1024
+Training started...
+Epoch [1/50], Loss: 4.653071880340576
+Epoch1 training time: 38.03815746307373 seconds
+Epoch [2/50], Loss: 4.6009697914123535
+Epoch2 training time: 36.83910298347473 seconds
+Epoch [3/50], Loss: 4.635548114776611
+Epoch3 training time: 36.84783625602722 seconds
+Epoch [4/50], Loss: 4.623885154724121
+Epoch4 training time: 36.85869884490967 seconds
+Epoch [5/50], Loss: 4.6330790519714355
+Epoch5 training time: 36.86954140663147 seconds
+Epoch [6/50], Loss: 4.605231285095215
+Epoch6 training time: 36.837621450424194 seconds
+Epoch [7/50], Loss: 4.60866117477417
+Epoch7 training time: 36.84459161758423 seconds
+Epoch [8/50], Loss: 4.6226582527160645
+Epoch8 training time: 36.85597252845764 seconds
+Epoch [9/50], Loss: 4.621896266937256
+Epoch9 training time: 36.86164665222168 seconds
+Epoch [10/50], Loss: 4.599058151245117
+Epoch10 training time: 36.84544801712036 seconds
+Epoch [11/50], Loss: 4.618675231933594
+Epoch11 training time: 36.85297703742981 seconds
+Epoch [12/50], Loss: 4.607449531555176
+Epoch12 training time: 36.83293676376343 seconds
+Epoch [13/50], Loss: 4.603330612182617
+Epoch13 training time: 36.81166744232178 seconds
+Epoch [14/50], Loss: 4.620505332946777
+Epoch14 training time: 36.81532883644104 seconds
+Epoch [15/50], Loss: 4.594454765319824
+Epoch15 training time: 36.8040976524353 seconds
+Epoch [16/50], Loss: 4.598700046539307
+Epoch16 training time: 36.81901502609253 seconds
+Epoch [17/50], Loss: 4.615989685058594
+Epoch17 training time: 36.79108715057373 seconds
+Epoch [18/50], Loss: 4.620794773101807
+Epoch18 training time: 36.77921485900879 seconds
+Epoch [19/50], Loss: 4.636550426483154
+Epoch19 training time: 36.78290915489197 seconds
+Epoch [20/50], Loss: 4.592563152313232
+Epoch20 training time: 36.80159401893616 seconds
+Epoch [21/50], Loss: 4.592961311340332
+Epoch21 training time: 36.79109168052673 seconds
+Epoch [22/50], Loss: 4.6030778884887695
+Epoch22 training time: 36.782949686050415 seconds
+Epoch [23/50], Loss: 4.6145501136779785
+Epoch23 training time: 36.777695655822754 seconds
+Epoch [24/50], Loss: 4.611382961273193
+Epoch24 training time: 36.77407193183899 seconds
+Epoch [25/50], Loss: 4.622252941131592
+Epoch25 training time: 36.78858423233032 seconds
+Epoch [26/50], Loss: 4.592021465301514
+Epoch26 training time: 36.786582708358765 seconds
+Epoch [27/50], Loss: 4.592721462249756
+Epoch27 training time: 36.7666175365448 seconds
+Epoch [28/50], Loss: 4.633070468902588
+Epoch28 training time: 36.76006031036377 seconds
+Epoch [29/50], Loss: 4.616079807281494
+Epoch29 training time: 36.789462089538574 seconds
+Epoch [30/50], Loss: 4.6130499839782715
+Epoch30 training time: 36.767565965652466 seconds
+Epoch [31/50], Loss: 4.623970985412598
+Epoch31 training time: 36.7715699672699 seconds
+Epoch [32/50], Loss: 4.617130279541016
+Epoch32 training time: 36.75255346298218 seconds
+Epoch [33/50], Loss: 4.630095481872559
+Epoch33 training time: 36.759299516677856 seconds
+Epoch [34/50], Loss: 4.5785627365112305
+Epoch34 training time: 36.76356315612793 seconds
+Epoch [35/50], Loss: 4.608041286468506
+Epoch35 training time: 36.756253719329834 seconds
+Epoch [36/50], Loss: 4.617321491241455
+Epoch36 training time: 36.75855875015259 seconds
+Epoch [37/50], Loss: 4.605969429016113
+Epoch37 training time: 36.7675666809082 seconds
+Epoch [38/50], Loss: 4.625036716461182
+Epoch38 training time: 36.754555463790894 seconds
+Epoch [39/50], Loss: 4.5991411209106445
+Epoch39 training time: 36.76142740249634 seconds
+Epoch [40/50], Loss: 4.610246658325195
+Epoch40 training time: 36.764063358306885 seconds
+Epoch [41/50], Loss: 4.596425533294678
+Epoch41 training time: 36.76456379890442 seconds
+Epoch [42/50], Loss: 4.619374752044678
+Epoch42 training time: 36.77207040786743 seconds
+Epoch [43/50], Loss: 4.604705810546875
+Epoch43 training time: 36.77056932449341 seconds
+Epoch [44/50], Loss: 4.582483768463135
+Epoch44 training time: 36.76906776428223 seconds
+Epoch [45/50], Loss: 4.608316421508789
+Epoch45 training time: 36.76356291770935 seconds
+Epoch [46/50], Loss: 4.61467170715332
+Epoch46 training time: 36.765565395355225 seconds
+Epoch [47/50], Loss: 4.603302955627441
+Epoch47 training time: 36.759849548339844 seconds
+Epoch [48/50], Loss: 4.602882385253906
+Epoch48 training time: 36.76806688308716 seconds
+Epoch [49/50], Loss: 4.613468647003174
+Epoch49 training time: 36.764564037323 seconds
+Epoch [50/50], Loss: 4.588781833648682
+Epoch50 training time: 36.761237144470215 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 33,792
+├─PatchEmbedding: 1-1                    [64, 64, 512]             --
+│    └─Conv2d: 2-1                       [64, 512, 8, 8]           25,088
+├─Dropout: 1-2                           [64, 65, 512]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 65, 512]             --
+│    │    └─LayerNorm: 3-1               [64, 65, 512]             1,024
+│    │    └─MultiheadAttention: 3-2      [64, 65, 512]             1,050,624
+│    │    └─LayerNorm: 3-3               [64, 65, 512]             1,024
+│    │    └─Sequential: 3-4              [64, 65, 512]             1,050,112
+│    └─TransformerEncoder: 2-3           [64, 65, 512]             --
+│    │    └─LayerNorm: 3-5               [64, 65, 512]             1,024
+│    │    └─MultiheadAttention: 3-6      [64, 65, 512]             1,050,624
+│    │    └─LayerNorm: 3-7               [64, 65, 512]             1,024
+│    │    └─Sequential: 3-8              [64, 65, 512]             1,050,112
+│    └─TransformerEncoder: 2-4           [64, 65, 512]             --
+│    │    └─LayerNorm: 3-9               [64, 65, 512]             1,024
+│    │    └─MultiheadAttention: 3-10     [64, 65, 512]             1,050,624
+│    │    └─LayerNorm: 3-11              [64, 65, 512]             1,024
+│    │    └─Sequential: 3-12             [64, 65, 512]             1,050,112
+│    └─TransformerEncoder: 2-5           [64, 65, 512]             --
+│    │    └─LayerNorm: 3-13              [64, 65, 512]             1,024
+│    │    └─MultiheadAttention: 3-14     [64, 65, 512]             1,050,624
+│    │    └─LayerNorm: 3-15              [64, 65, 512]             1,024
+│    │    └─Sequential: 3-16             [64, 65, 512]             1,050,112
+├─LayerNorm: 1-4                         [64, 65, 512]             1,024
+├─Linear: 1-5                            [64, 100]                 51,300
+==========================================================================================
+Total params: 8,522,340
+Trainable params: 8,522,340
+Non-trainable params: 0
+Total mult-adds (M): 375.46
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 374.65
+Params size (MB): 17.14
+Estimated Total Size (MB): 392.59
+==========================================================================================
+
+
+
+
+Patch Size: 8, Hidden_dim: 256, num_layers: 2, num_heads: 4, mlp_dim: 512
+Training started...
+Epoch [1/50], Loss: 4.6197309494018555
+Epoch1 training time: 11.444824934005737 seconds
+Epoch [2/50], Loss: 4.556700706481934
+Epoch2 training time: 11.503876447677612 seconds
+Epoch [3/50], Loss: 4.573618412017822
+Epoch3 training time: 11.419303894042969 seconds
+Epoch [4/50], Loss: 4.570831298828125
+Epoch4 training time: 11.518889427185059 seconds
+Epoch [5/50], Loss: 4.589609622955322
+Epoch5 training time: 11.417803049087524 seconds
+Epoch [6/50], Loss: 4.612960338592529
+Epoch6 training time: 11.47735333442688 seconds
+Epoch [7/50], Loss: 4.611680507659912
+Epoch7 training time: 11.428311824798584 seconds
+Epoch [8/50], Loss: 4.599055290222168
+Epoch8 training time: 11.491365671157837 seconds
+Epoch [9/50], Loss: 4.5864362716674805
+Epoch9 training time: 11.444825887680054 seconds
+Epoch [10/50], Loss: 4.617854595184326
+Epoch10 training time: 11.481357336044312 seconds
+Epoch [11/50], Loss: 4.593644618988037
+Epoch11 training time: 11.477353572845459 seconds
+Epoch [12/50], Loss: 4.607438564300537
+Epoch12 training time: 11.445326805114746 seconds
+Epoch [13/50], Loss: 4.609075546264648
+Epoch13 training time: 11.476352453231812 seconds
+Epoch [14/50], Loss: 4.617021560668945
+Epoch14 training time: 11.447828531265259 seconds
+Epoch [15/50], Loss: 4.597901344299316
+Epoch15 training time: 11.48135781288147 seconds
+Epoch [16/50], Loss: 4.611830711364746
+Epoch16 training time: 11.42630934715271 seconds
+Epoch [17/50], Loss: 4.600958347320557
+Epoch17 training time: 11.493367433547974 seconds
+Epoch [18/50], Loss: 4.610439300537109
+Epoch18 training time: 11.431814670562744 seconds
+Epoch [19/50], Loss: 4.612414360046387
+Epoch19 training time: 11.497871398925781 seconds
+Epoch [20/50], Loss: 4.603517532348633
+Epoch20 training time: 11.428311824798584 seconds
+Epoch [21/50], Loss: 4.600672721862793
+Epoch21 training time: 11.471348524093628 seconds
+Epoch [22/50], Loss: 4.595189094543457
+Epoch22 training time: 11.452332735061646 seconds
+Epoch [23/50], Loss: 4.604410171508789
+Epoch23 training time: 11.457336902618408 seconds
+Epoch [24/50], Loss: 4.600119113922119
+Epoch24 training time: 11.47034764289856 seconds
+Epoch [25/50], Loss: 4.598357200622559
+Epoch25 training time: 11.436318635940552 seconds
+Epoch [26/50], Loss: 4.6204705238342285
+Epoch26 training time: 11.461840152740479 seconds
+Epoch [27/50], Loss: 4.60756254196167
+Epoch27 training time: 11.437319993972778 seconds
+Epoch [28/50], Loss: 4.597548961639404
+Epoch28 training time: 11.489864349365234 seconds
+Epoch [29/50], Loss: 4.601361274719238
+Epoch29 training time: 11.403790473937988 seconds
+Epoch [30/50], Loss: 4.602565765380859
+Epoch30 training time: 11.460226058959961 seconds
+Epoch [31/50], Loss: 4.6089677810668945
+Epoch31 training time: 11.43381643295288 seconds
+Epoch [32/50], Loss: 4.622649669647217
+Epoch32 training time: 11.465335130691528 seconds
+Epoch [33/50], Loss: 4.596057891845703
+Epoch33 training time: 11.456335306167603 seconds
+Epoch [34/50], Loss: 4.611292362213135
+Epoch34 training time: 11.431814908981323 seconds
+Epoch [35/50], Loss: 4.616594314575195
+Epoch35 training time: 11.46434235572815 seconds
+Epoch [36/50], Loss: 4.599576950073242
+Epoch36 training time: 11.437820434570312 seconds
+Epoch [37/50], Loss: 4.609112739562988
+Epoch37 training time: 11.442323207855225 seconds
+Epoch [38/50], Loss: 4.611414432525635
+Epoch38 training time: 11.456836223602295 seconds
+Epoch [39/50], Loss: 4.60595703125
+Epoch39 training time: 11.439821481704712 seconds
+Epoch [40/50], Loss: 4.6031646728515625
+Epoch40 training time: 11.477353572845459 seconds
+Epoch [41/50], Loss: 4.603999137878418
+Epoch41 training time: 11.435317754745483 seconds
+Epoch [42/50], Loss: 4.602721214294434
+Epoch42 training time: 11.474851608276367 seconds
+Epoch [43/50], Loss: 4.607330322265625
+Epoch43 training time: 11.435318231582642 seconds
+Epoch [44/50], Loss: 4.603438854217529
+Epoch44 training time: 11.467345237731934 seconds
+Epoch [45/50], Loss: 4.59307336807251
+Epoch45 training time: 11.440822124481201 seconds
+Epoch [46/50], Loss: 4.6004109382629395
+Epoch46 training time: 11.447828531265259 seconds
+Epoch [47/50], Loss: 4.5990824699401855
+Epoch47 training time: 11.44434404373169 seconds
+Epoch [48/50], Loss: 4.602214336395264
+Epoch48 training time: 11.429312467575073 seconds
+Epoch [49/50], Loss: 4.608913898468018
+Epoch49 training time: 11.419304847717285 seconds
+Epoch [50/50], Loss: 4.617881774902344
+Epoch50 training time: 11.458837509155273 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 4,608
+├─PatchEmbedding: 1-1                    [64, 16, 256]             --
+│    └─Conv2d: 2-1                       [64, 256, 4, 4]           49,408
+├─Dropout: 1-2                           [64, 17, 256]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 17, 256]             --
+│    │    └─LayerNorm: 3-1               [64, 17, 256]             512
+│    │    └─MultiheadAttention: 3-2      [64, 17, 256]             263,168
+│    │    └─LayerNorm: 3-3               [64, 17, 256]             512
+│    │    └─Sequential: 3-4              [64, 17, 256]             262,912
+│    └─TransformerEncoder: 2-3           [64, 17, 256]             --
+│    │    └─LayerNorm: 3-5               [64, 17, 256]             512
+│    │    └─MultiheadAttention: 3-6      [64, 17, 256]             263,168
+│    │    └─LayerNorm: 3-7               [64, 17, 256]             512
+│    │    └─Sequential: 3-8              [64, 17, 256]             262,912
+├─LayerNorm: 1-4                         [64, 17, 256]             512
+├─Linear: 1-5                            [64, 100]                 25,700
+==========================================================================================
+Total params: 1,134,436
+Trainable params: 1,134,436
+Non-trainable params: 0
+Total mult-adds (M): 86.06
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 26.66
+Params size (MB): 2.41
+Estimated Total Size (MB): 29.86
+==========================================================================================
+
+
+
+
+Patch Size: 8, Hidden_dim: 256, num_layers: 4, num_heads: 4, mlp_dim: 512
+Training started...
+Epoch [1/50], Loss: 4.669839382171631
+Epoch1 training time: 13.735792636871338 seconds
+Epoch [2/50], Loss: 4.703013896942139
+Epoch2 training time: 13.71727705001831 seconds
+Epoch [3/50], Loss: 4.558688640594482
+Epoch3 training time: 13.737794399261475 seconds
+Epoch [4/50], Loss: 4.634549617767334
+Epoch4 training time: 13.730788707733154 seconds
+Epoch [5/50], Loss: 4.611051082611084
+Epoch5 training time: 13.765318632125854 seconds
+Epoch [6/50], Loss: 4.611922264099121
+Epoch6 training time: 13.729787826538086 seconds
+Epoch [7/50], Loss: 4.605643272399902
+Epoch7 training time: 13.747802019119263 seconds
+Epoch [8/50], Loss: 4.5931172370910645
+Epoch8 training time: 13.750806093215942 seconds
+Epoch [9/50], Loss: 4.617819309234619
+Epoch9 training time: 13.73379111289978 seconds
+Epoch [10/50], Loss: 4.612971782684326
+Epoch10 training time: 13.743799209594727 seconds
+Epoch [11/50], Loss: 4.601374626159668
+Epoch11 training time: 13.717778205871582 seconds
+Epoch [12/50], Loss: 4.597546577453613
+Epoch12 training time: 13.730788469314575 seconds
+Epoch [13/50], Loss: 4.58331298828125
+Epoch13 training time: 13.733289957046509 seconds
+Epoch [14/50], Loss: 4.606192111968994
+Epoch14 training time: 13.745301008224487 seconds
+Epoch [15/50], Loss: 4.610866546630859
+Epoch15 training time: 13.731289625167847 seconds
+Epoch [16/50], Loss: 4.602287292480469
+Epoch16 training time: 13.732289791107178 seconds
+Epoch [17/50], Loss: 4.600693225860596
+Epoch17 training time: 13.746801614761353 seconds
+Epoch [18/50], Loss: 4.591830253601074
+Epoch18 training time: 13.743799448013306 seconds
+Epoch [19/50], Loss: 4.6101202964782715
+Epoch19 training time: 13.734291315078735 seconds
+Epoch [20/50], Loss: 4.609671592712402
+Epoch20 training time: 13.734292268753052 seconds
+Epoch [21/50], Loss: 4.600489616394043
+Epoch21 training time: 13.751305341720581 seconds
+Epoch [22/50], Loss: 4.608978748321533
+Epoch22 training time: 13.746801853179932 seconds
+Epoch [23/50], Loss: 4.6284871101379395
+Epoch23 training time: 13.737294912338257 seconds
+Epoch [24/50], Loss: 4.592007637023926
+Epoch24 training time: 13.730287790298462 seconds
+Epoch [25/50], Loss: 4.621779441833496
+Epoch25 training time: 13.75130581855774 seconds
+Epoch [26/50], Loss: 4.608160495758057
+Epoch26 training time: 13.720779418945312 seconds
+Epoch [27/50], Loss: 4.604623317718506
+Epoch27 training time: 13.772325038909912 seconds
+Epoch [28/50], Loss: 4.617734909057617
+Epoch28 training time: 13.732790231704712 seconds
+Epoch [29/50], Loss: 4.601354598999023
+Epoch29 training time: 13.756309747695923 seconds
+Epoch [30/50], Loss: 4.602059364318848
+Epoch30 training time: 13.76081371307373 seconds
+Epoch [31/50], Loss: 4.61656379699707
+Epoch31 training time: 13.795845031738281 seconds
+Epoch [32/50], Loss: 4.625868797302246
+Epoch32 training time: 13.779329538345337 seconds
+Epoch [33/50], Loss: 4.626049041748047
+Epoch33 training time: 13.756310939788818 seconds
+Epoch [34/50], Loss: 4.619073390960693
+Epoch34 training time: 13.749304056167603 seconds
+Epoch [35/50], Loss: 4.600727558135986
+Epoch35 training time: 13.780331134796143 seconds
+Epoch [36/50], Loss: 4.596175193786621
+Epoch36 training time: 13.733291149139404 seconds
+Epoch [37/50], Loss: 4.61198616027832
+Epoch37 training time: 13.789337873458862 seconds
+Epoch [38/50], Loss: 4.6064958572387695
+Epoch38 training time: 13.780831575393677 seconds
+Epoch [39/50], Loss: 4.615363597869873
+Epoch39 training time: 13.764317512512207 seconds
+Epoch [40/50], Loss: 4.607003211975098
+Epoch40 training time: 13.779330730438232 seconds
+Epoch [41/50], Loss: 4.602046012878418
+Epoch41 training time: 13.76231575012207 seconds
+Epoch [42/50], Loss: 4.610527992248535
+Epoch42 training time: 13.78233289718628 seconds
+Epoch [43/50], Loss: 4.606708526611328
+Epoch43 training time: 13.763317108154297 seconds
+Epoch [44/50], Loss: 4.611752986907959
+Epoch44 training time: 13.750805377960205 seconds
+Epoch [45/50], Loss: 4.593029975891113
+Epoch45 training time: 13.769821166992188 seconds
+Epoch [46/50], Loss: 4.610838413238525
+Epoch46 training time: 13.766819477081299 seconds
+Epoch [47/50], Loss: 4.6124749183654785
+Epoch47 training time: 13.762816429138184 seconds
+Epoch [48/50], Loss: 4.601973533630371
+Epoch48 training time: 13.750304937362671 seconds
+Epoch [49/50], Loss: 4.603999137878418
+Epoch49 training time: 13.75881290435791 seconds
+Epoch [50/50], Loss: 4.60251522064209
+Epoch50 training time: 13.755310297012329 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 4,608
+├─PatchEmbedding: 1-1                    [64, 16, 256]             --
+│    └─Conv2d: 2-1                       [64, 256, 4, 4]           49,408
+├─Dropout: 1-2                           [64, 17, 256]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 17, 256]             --
+│    │    └─LayerNorm: 3-1               [64, 17, 256]             512
+│    │    └─MultiheadAttention: 3-2      [64, 17, 256]             263,168
+│    │    └─LayerNorm: 3-3               [64, 17, 256]             512
+│    │    └─Sequential: 3-4              [64, 17, 256]             262,912
+│    └─TransformerEncoder: 2-3           [64, 17, 256]             --
+│    │    └─LayerNorm: 3-5               [64, 17, 256]             512
+│    │    └─MultiheadAttention: 3-6      [64, 17, 256]             263,168
+│    │    └─LayerNorm: 3-7               [64, 17, 256]             512
+│    │    └─Sequential: 3-8              [64, 17, 256]             262,912
+│    └─TransformerEncoder: 2-4           [64, 17, 256]             --
+│    │    └─LayerNorm: 3-9               [64, 17, 256]             512
+│    │    └─MultiheadAttention: 3-10     [64, 17, 256]             263,168
+│    │    └─LayerNorm: 3-11              [64, 17, 256]             512
+│    │    └─Sequential: 3-12             [64, 17, 256]             262,912
+│    └─TransformerEncoder: 2-5           [64, 17, 256]             --
+│    │    └─LayerNorm: 3-13              [64, 17, 256]             512
+│    │    └─MultiheadAttention: 3-14     [64, 17, 256]             263,168
+│    │    └─LayerNorm: 3-15              [64, 17, 256]             512
+│    │    └─Sequential: 3-16             [64, 17, 256]             262,912
+├─LayerNorm: 1-4                         [64, 17, 256]             512
+├─Linear: 1-5                            [64, 100]                 25,700
+==========================================================================================
+Total params: 2,188,644
+Trainable params: 2,188,644
+Non-trainable params: 0
+Total mult-adds (M): 119.84
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 48.94
+Params size (MB): 4.53
+Estimated Total Size (MB): 54.25
+==========================================================================================
+
+
+
+
+Patch Size: 8, Hidden_dim: 512, num_layers: 2, num_heads: 4, mlp_dim: 1024
+Training started...
+Epoch [1/50], Loss: 4.706363677978516
+Epoch1 training time: 11.727567911148071 seconds
+Epoch [2/50], Loss: 4.6321001052856445
+Epoch2 training time: 11.652003765106201 seconds
+Epoch [3/50], Loss: 4.605165958404541
+Epoch3 training time: 11.681029081344604 seconds
+Epoch [4/50], Loss: 4.603666305541992
+Epoch4 training time: 11.627482414245605 seconds
+Epoch [5/50], Loss: 4.646169185638428
+Epoch5 training time: 11.621977806091309 seconds
+Epoch [6/50], Loss: 4.636106491088867
+Epoch6 training time: 11.609968423843384 seconds
+Epoch [7/50], Loss: 4.62509822845459
+Epoch7 training time: 11.700044393539429 seconds
+Epoch [8/50], Loss: 4.5894694328308105
+Epoch8 training time: 11.636990785598755 seconds
+Epoch [9/50], Loss: 4.611443519592285
+Epoch9 training time: 11.612970352172852 seconds
+Epoch [10/50], Loss: 4.673111438751221
+Epoch10 training time: 11.63298749923706 seconds
+Epoch [11/50], Loss: 4.623726844787598
+Epoch11 training time: 11.63899302482605 seconds
+Epoch [12/50], Loss: 4.584700584411621
+Epoch12 training time: 11.65750789642334 seconds
+Epoch [13/50], Loss: 4.590721607208252
+Epoch13 training time: 11.646499395370483 seconds
+Epoch [14/50], Loss: 4.6157050132751465
+Epoch14 training time: 11.656507730484009 seconds
+Epoch [15/50], Loss: 4.60180139541626
+Epoch15 training time: 11.611968994140625 seconds
+Epoch [16/50], Loss: 4.620806694030762
+Epoch16 training time: 11.624980688095093 seconds
+Epoch [17/50], Loss: 4.607160568237305
+Epoch17 training time: 11.627983093261719 seconds
+Epoch [18/50], Loss: 4.618637561798096
+Epoch18 training time: 11.6194748878479 seconds
+Epoch [19/50], Loss: 4.592980861663818
+Epoch19 training time: 11.666516542434692 seconds
+Epoch [20/50], Loss: 4.577206611633301
+Epoch20 training time: 11.630985260009766 seconds
+Epoch [21/50], Loss: 4.591760635375977
+Epoch21 training time: 11.613470315933228 seconds
+Epoch [22/50], Loss: 4.604344367980957
+Epoch22 training time: 11.613971471786499 seconds
+Epoch [23/50], Loss: 4.616820335388184
+Epoch23 training time: 11.652503967285156 seconds
+Epoch [24/50], Loss: 4.6200642585754395
+Epoch24 training time: 11.654505968093872 seconds
+Epoch [25/50], Loss: 4.630432605743408
+Epoch25 training time: 11.634990453720093 seconds
+Epoch [26/50], Loss: 4.608612537384033
+Epoch26 training time: 11.645997047424316 seconds
+Epoch [27/50], Loss: 4.596765041351318
+Epoch27 training time: 11.623980045318604 seconds
+Epoch [28/50], Loss: 4.6137800216674805
+Epoch28 training time: 11.610968112945557 seconds
+Epoch [29/50], Loss: 4.597433090209961
+Epoch29 training time: 11.648500919342041 seconds
+Epoch [30/50], Loss: 4.624941349029541
+Epoch30 training time: 11.619476079940796 seconds
+Epoch [31/50], Loss: 4.602269649505615
+Epoch31 training time: 11.636990308761597 seconds
+Epoch [32/50], Loss: 4.601134300231934
+Epoch32 training time: 11.673522233963013 seconds
+Epoch [33/50], Loss: 4.598377227783203
+Epoch33 training time: 11.62097716331482 seconds
+Epoch [34/50], Loss: 4.617757797241211
+Epoch34 training time: 11.661011695861816 seconds
+Epoch [35/50], Loss: 4.6093645095825195
+Epoch35 training time: 11.617473840713501 seconds
+Epoch [36/50], Loss: 4.60345983505249
+Epoch36 training time: 11.696541786193848 seconds
+Epoch [37/50], Loss: 4.621562957763672
+Epoch37 training time: 11.607465982437134 seconds
+Epoch [38/50], Loss: 4.601480007171631
+Epoch38 training time: 11.621477127075195 seconds
+Epoch [39/50], Loss: 4.6101837158203125
+Epoch39 training time: 11.59595537185669 seconds
+Epoch [40/50], Loss: 4.63227653503418
+Epoch40 training time: 11.697543382644653 seconds
+Epoch [41/50], Loss: 4.623543739318848
+Epoch41 training time: 11.685531854629517 seconds
+Epoch [42/50], Loss: 4.618555545806885
+Epoch42 training time: 11.634489297866821 seconds
+Epoch [43/50], Loss: 4.607276916503906
+Epoch43 training time: 11.597456455230713 seconds
+Epoch [44/50], Loss: 4.603132724761963
+Epoch44 training time: 11.599959135055542 seconds
+Epoch [45/50], Loss: 4.610014915466309
+Epoch45 training time: 11.633988618850708 seconds
+Epoch [46/50], Loss: 4.61427640914917
+Epoch46 training time: 11.684531688690186 seconds
+Epoch [47/50], Loss: 4.619924545288086
+Epoch47 training time: 11.643996715545654 seconds
+Epoch [48/50], Loss: 4.601156711578369
+Epoch48 training time: 11.589449644088745 seconds
+Epoch [49/50], Loss: 4.60911750793457
+Epoch49 training time: 11.62698221206665 seconds
+Epoch [50/50], Loss: 4.61164665222168
+Epoch50 training time: 11.651002645492554 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 9,216
+├─PatchEmbedding: 1-1                    [64, 16, 512]             --
+│    └─Conv2d: 2-1                       [64, 512, 4, 4]           98,816
+├─Dropout: 1-2                           [64, 17, 512]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 17, 512]             --
+│    │    └─LayerNorm: 3-1               [64, 17, 512]             1,024
+│    │    └─MultiheadAttention: 3-2      [64, 17, 512]             1,050,624
+│    │    └─LayerNorm: 3-3               [64, 17, 512]             1,024
+│    │    └─Sequential: 3-4              [64, 17, 512]             1,050,112
+│    └─TransformerEncoder: 2-3           [64, 17, 512]             --
+│    │    └─LayerNorm: 3-5               [64, 17, 512]             1,024
+│    │    └─MultiheadAttention: 3-6      [64, 17, 512]             1,050,624
+│    │    └─LayerNorm: 3-7               [64, 17, 512]             1,024
+│    │    └─Sequential: 3-8              [64, 17, 512]             1,050,112
+├─LayerNorm: 1-4                         [64, 17, 512]             1,024
+├─Linear: 1-5                            [64, 100]                 51,300
+==========================================================================================
+Total params: 4,365,924
+Trainable params: 4,365,924
+Non-trainable params: 0
+Total mult-adds (M): 239.21
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 53.27
+Params size (MB): 9.02
+Estimated Total Size (MB): 63.07
+==========================================================================================
+
+
+
+
+Patch Size: 8, Hidden_dim: 512, num_layers: 4, num_heads: 4, mlp_dim: 1024
+Training started...
+Epoch [1/50], Loss: 4.79677677154541
+Epoch1 training time: 15.303138017654419 seconds
+Epoch [2/50], Loss: 4.610630989074707
+Epoch2 training time: 13.990010738372803 seconds
+Epoch [3/50], Loss: 4.6605634689331055
+Epoch3 training time: 13.947975397109985 seconds
+Epoch [4/50], Loss: 4.588334560394287
+Epoch4 training time: 14.0300452709198 seconds
+Epoch [5/50], Loss: 4.600714683532715
+Epoch5 training time: 14.024040222167969 seconds
+Epoch [6/50], Loss: 4.614235877990723
+Epoch6 training time: 13.976499557495117 seconds
+Epoch [7/50], Loss: 4.587488651275635
+Epoch7 training time: 13.981002807617188 seconds
+Epoch [8/50], Loss: 4.6022162437438965
+Epoch8 training time: 14.000520467758179 seconds
+Epoch [9/50], Loss: 4.596963405609131
+Epoch9 training time: 14.000019550323486 seconds
+Epoch [10/50], Loss: 4.5933356285095215
+Epoch10 training time: 13.990510940551758 seconds
+Epoch [11/50], Loss: 4.608047008514404
+Epoch11 training time: 13.965490341186523 seconds
+Epoch [12/50], Loss: 4.604453086853027
+Epoch12 training time: 14.000519752502441 seconds
+Epoch [13/50], Loss: 4.607126235961914
+Epoch13 training time: 14.038052797317505 seconds
+Epoch [14/50], Loss: 4.622094631195068
+Epoch14 training time: 13.953479290008545 seconds
+Epoch [15/50], Loss: 4.597527027130127
+Epoch15 training time: 13.997517347335815 seconds
+Epoch [16/50], Loss: 4.605952739715576
+Epoch16 training time: 13.995014905929565 seconds
+Epoch [17/50], Loss: 4.617173671722412
+Epoch17 training time: 13.982004404067993 seconds
+Epoch [18/50], Loss: 4.600699424743652
+Epoch18 training time: 13.986007928848267 seconds
+Epoch [19/50], Loss: 4.604642868041992
+Epoch19 training time: 14.001020669937134 seconds
+Epoch [20/50], Loss: 4.608625888824463
+Epoch20 training time: 13.985507011413574 seconds
+Epoch [21/50], Loss: 4.603369235992432
+Epoch21 training time: 14.02053713798523 seconds
+Epoch [22/50], Loss: 4.618444442749023
+Epoch22 training time: 14.035037517547607 seconds
+Epoch [23/50], Loss: 4.6079182624816895
+Epoch23 training time: 13.973496437072754 seconds
+Epoch [24/50], Loss: 4.614046573638916
+Epoch24 training time: 13.997517824172974 seconds
+Epoch [25/50], Loss: 4.608067989349365
+Epoch25 training time: 14.006524801254272 seconds
+Epoch [26/50], Loss: 4.648769378662109
+Epoch26 training time: 14.049062252044678 seconds
+Epoch [27/50], Loss: 4.611401081085205
+Epoch27 training time: 14.016033172607422 seconds
+Epoch [28/50], Loss: 4.60433292388916
+Epoch28 training time: 14.033047676086426 seconds
+Epoch [29/50], Loss: 4.609549522399902
+Epoch29 training time: 14.010028600692749 seconds
+Epoch [30/50], Loss: 4.6246442794799805
+Epoch30 training time: 14.036550760269165 seconds
+Epoch [31/50], Loss: 4.582571029663086
+Epoch31 training time: 14.012030124664307 seconds
+Epoch [32/50], Loss: 4.6010422706604
+Epoch32 training time: 13.973300218582153 seconds
+Epoch [33/50], Loss: 4.598280429840088
+Epoch33 training time: 14.030545949935913 seconds
+Epoch [34/50], Loss: 4.594442844390869
+Epoch34 training time: 13.995515823364258 seconds
+Epoch [35/50], Loss: 4.633546829223633
+Epoch35 training time: 13.982003927230835 seconds
+Epoch [36/50], Loss: 4.600090980529785
+Epoch36 training time: 14.03855276107788 seconds
+Epoch [37/50], Loss: 4.607486248016357
+Epoch37 training time: 14.011529922485352 seconds
+Epoch [38/50], Loss: 4.614588737487793
+Epoch38 training time: 14.125127077102661 seconds
+Epoch [39/50], Loss: 4.611004829406738
+Epoch39 training time: 14.055567026138306 seconds
+Epoch [40/50], Loss: 4.617605686187744
+Epoch40 training time: 14.011529445648193 seconds
+Epoch [41/50], Loss: 4.6096649169921875
+Epoch41 training time: 14.037551641464233 seconds
+Epoch [42/50], Loss: 4.608236312866211
+Epoch42 training time: 14.006025075912476 seconds
+Epoch [43/50], Loss: 4.610962867736816
+Epoch43 training time: 13.992512702941895 seconds
+Epoch [44/50], Loss: 4.600302696228027
+Epoch44 training time: 14.04205584526062 seconds
+Epoch [45/50], Loss: 4.6097307205200195
+Epoch45 training time: 13.972496032714844 seconds
+Epoch [46/50], Loss: 4.576433181762695
+Epoch46 training time: 14.03254747390747 seconds
+Epoch [47/50], Loss: 4.599133014678955
+Epoch47 training time: 13.990511178970337 seconds
+Epoch [48/50], Loss: 4.58477783203125
+Epoch48 training time: 13.98500680923462 seconds
+Epoch [49/50], Loss: 4.606693744659424
+Epoch49 training time: 14.02904462814331 seconds
+Epoch [50/50], Loss: 4.6299638748168945
+Epoch50 training time: 13.957483530044556 seconds
+Testing started...
+Accuracy: 1.0%
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+VisionTransformer                        [64, 100]                 9,216
+├─PatchEmbedding: 1-1                    [64, 16, 512]             --
+│    └─Conv2d: 2-1                       [64, 512, 4, 4]           98,816
+├─Dropout: 1-2                           [64, 17, 512]             --
+├─ModuleList: 1-3                        --                        --
+│    └─TransformerEncoder: 2-2           [64, 17, 512]             --
+│    │    └─LayerNorm: 3-1               [64, 17, 512]             1,024
+│    │    └─MultiheadAttention: 3-2      [64, 17, 512]             1,050,624
+│    │    └─LayerNorm: 3-3               [64, 17, 512]             1,024
+│    │    └─Sequential: 3-4              [64, 17, 512]             1,050,112
+│    └─TransformerEncoder: 2-3           [64, 17, 512]             --
+│    │    └─LayerNorm: 3-5               [64, 17, 512]             1,024
+│    │    └─MultiheadAttention: 3-6      [64, 17, 512]             1,050,624
+│    │    └─LayerNorm: 3-7               [64, 17, 512]             1,024
+│    │    └─Sequential: 3-8              [64, 17, 512]             1,050,112
+│    └─TransformerEncoder: 2-4           [64, 17, 512]             --
+│    │    └─LayerNorm: 3-9               [64, 17, 512]             1,024
+│    │    └─MultiheadAttention: 3-10     [64, 17, 512]             1,050,624
+│    │    └─LayerNorm: 3-11              [64, 17, 512]             1,024
+│    │    └─Sequential: 3-12             [64, 17, 512]             1,050,112
+│    └─TransformerEncoder: 2-5           [64, 17, 512]             --
+│    │    └─LayerNorm: 3-13              [64, 17, 512]             1,024
+│    │    └─MultiheadAttention: 3-14     [64, 17, 512]             1,050,624
+│    │    └─LayerNorm: 3-15              [64, 17, 512]             1,024
+│    │    └─Sequential: 3-16             [64, 17, 512]             1,050,112
+├─LayerNorm: 1-4                         [64, 17, 512]             1,024
+├─Linear: 1-5                            [64, 100]                 51,300
+==========================================================================================
+Total params: 8,571,492
+Trainable params: 8,571,492
+Non-trainable params: 0
+Total mult-adds (M): 373.89
+==========================================================================================
+Input size (MB): 0.79
+Forward/backward pass size (MB): 97.83
+Params size (MB): 17.44
+Estimated Total Size (MB): 116.06
+==========================================================================================
+
+
+
+
